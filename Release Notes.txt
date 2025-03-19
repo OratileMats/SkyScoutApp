@@ -1,0 +1,8 @@
+Updates added since the prototype:
+-adding your observations
+-viewing the observations
+-hotspots for birds on the map
+-Metric system works correctly now 
+
+My Inovative feature was adding the metric system and making it work with the map.When you change
+ to kilometers it will do the same for the google map.

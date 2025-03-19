@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "696648954366",
+    "project_id": "skyscoutprototype",
+    "storage_bucket": "skyscoutprototype.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696648954366:android:4dfad72d1240e551a510af",
+        "android_client_info": {
+          "package_name": "com.example.skyscoutprototype"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrozHLahbYA9hpZ5xOobK5wYvRrDxgU5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="258dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="80dp"
+        android:text="Welcome to SkyScout"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="204dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:srcCompat="@drawable/home1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where Connecting With Nature Is Made Easier For You"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/obsBtn"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Add Observation"
+        app:layout_constraintEnd_toStartOf="@+id/youBtn"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/youBtn"
+        android:layout_width="145dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Your Observations"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/hotBtn"
+        android:layout_width="138dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Bird Hotspots"
+        app:layout_constraintEnd_toStartOf="@+id/routeBtn"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/obsBtn" />
+
+    <Button
+        android:id="@+id/routeBtn"
+        android:layout_width="137dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="48dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Route Calculation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youBtn" />
+
+    <Button
+        android:id="@+id/locBtn"
+        android:layout_width="138dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Location"
+        app:layout_constraintEnd_toStartOf="@+id/setBtn"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotBtn" />
+
+    <Button
+        android:id="@+id/setBtn"
+        android:layout_width="141dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/routeBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
